@@ -1,12 +1,13 @@
 {
-  "name": "ckeditor5-custom",
+  "name": "ckeditor5-custom-decoupled",
   "version": "1.0.0",
   "description": "Custom build for ckeditor v5",
   "main": "./build/ckeditor.js",
   "private": false,
   "keywords": [
 	"ckeditor5-custom",
-	"ckeditor5"
+	"ckeditor5",
+	"ckeditor5 decoupled"
   ],
   "author": "Laimonas Narbutas <info@monas.lt>",
   "homepage": "https://github.com/monas/ckeditor5-custom",
