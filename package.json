@@ -5,9 +5,9 @@
   "main": "./build/ckeditor.js",
   "private": false,
   "keywords": [
-	"ckeditor5-custom",
-	"ckeditor5",
-	"ckeditor5 decoupled"
+    "ckeditor5-custom",
+    "ckeditor5",
+    "ckeditor5 decoupled"
   ],
   "author": "Laimonas Narbutas <info@monas.lt>",
   "homepage": "https://github.com/monas/ckeditor5-custom",
@@ -43,6 +43,7 @@
     "eslint-config-ckeditor5": "^2.0.0",
     "husky": "^3.0.0",
     "lint-staged": "^9.2.0",
+    "lodash": "^4.17.14",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^3.0.0",
     "style-loader": "^0.23.1",
