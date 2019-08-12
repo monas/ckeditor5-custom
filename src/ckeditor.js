@@ -11,7 +11,7 @@ import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
-import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
+// import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
@@ -33,6 +33,7 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/base64uploadadapter';
 
 import CustomAttach from './plugins/customAttach';
 import CustomInlineImage from './plugins/customInlineImage';
@@ -46,7 +47,8 @@ DecoupledEditor.builtinPlugins = [
 	FontSize,
 	FontFamily,
 	Highlight,
-	UploadAdapter,
+	// UploadAdapter,
+	Base64UploadAdapter,
 	Autoformat,
 	Bold,
 	Italic,
@@ -95,7 +97,7 @@ DecoupledEditor.defaultConfig = {
 			'link',
 			'blockquote',
 			'imageUpload',
-			'customInlineImage',
+			// 'customInlineImage',
 			'insertTable',
 			'mediaEmbed',
 			'|',
